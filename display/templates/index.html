@@ -1,0 +1,8 @@
+{% load markdownify %}
+<h1>Spacy Named Entity Displacy Django</h1>
+<form action="." method="POST">
+    {% csrf_token %}
+    <textarea name="text" value = 'text' id="text" cols="30" rows="10"></textarea>
+    <br><input type="submit" value="Generate" name="button">
+</form> 
+{{data|markdownify}}
