@@ -1,1 +1,1 @@
-# spacy Displacy markdown
+# spacy Displacy markdown (Django)
